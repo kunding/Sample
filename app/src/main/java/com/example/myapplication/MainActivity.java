@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "onCreate: ");
         Log.i(TAG, "onCreate: ");
         Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
+        System.out.println("提交");
     }
 }
