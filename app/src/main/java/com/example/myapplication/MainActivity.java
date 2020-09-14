@@ -13,5 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         System.out.println("ddd");
         Log.d(TAG, "onCreate: ");
+        Log.e(TAG, "onCreate: ");
+        Log.i(TAG, "onCreate: ");
+        Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
     }
 }
